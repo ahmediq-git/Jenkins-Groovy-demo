@@ -1,0 +1,10 @@
+node{
+  stage('Build'){
+    echo 'We build the file'
+  }
+  
+  stage('Test'){
+    echo 'We build the file'
+  }
+
+}
