@@ -3,8 +3,16 @@ node{
     echo 'We build the file'
   }
   
-  stage('Test'){
-    echo 'We build the file'
+  stage('Test1'){
+    echo 'We test the file'
+  }
+  
+  stage('Test2'){
+    echo 'A test case fails'
+  }
+  
+  stage('Deploy'){
+    echo 'A test case fails'
   }
 
 }
