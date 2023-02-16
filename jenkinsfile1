@@ -8,11 +8,11 @@ node{
   }
   
   stage('Test2'){
-    echo 'A test case fails'
+    echo 'The test cases fail'
   }
   
   stage('Deploy'){
-    echo 'A test case fails'
+    echo 'The test cases fail'
   }
 
 }
